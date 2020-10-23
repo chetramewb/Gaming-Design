@@ -1,643 +1,800 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Gaming-Design </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    </head>
-    <body>
-    <header> 
-    <div class="main-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-              <div class="logo">
-                <img src="./images/logo.png" alt="logo">
-                <a href="#"> Gaming AMP </a>
-              </div>
-            </div> <!--col-md-2-->
-            <div class="col-md-9">
-                <nav class="navbar navbar-expand-lg ">
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                          <a class="nav-link active" href="#">Watch Video  </a>
-                        </li>
-
-                        <li class="nav-item">
-                          <div class="dropdown">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                              Live Demo
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Demo1</a>
-                              <a class="dropdown-item" href="#">Demo 2</a>
-                              <a class="dropdown-item" href="#">Demo 3</a>
-                            </div>
-                          </div> 
-                        </li>
-
-                      <li class="nav-item">
-                        <div class="dropdown">
-                          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                            Blocks
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#"> Blocks 1</a>
-                            <a class="dropdown-item" href="#"> Blocks 2</a>
-                            <a class="dropdown-item" href="#"> Blocks 3</a>
-                          </div>
-                        </div> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title> Gaming-Design </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="css/slick.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header> 
+<div class="main-header">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+            <a href="#"> Gaming AMP </a>
+          </div>
+        </div> <!--col-md-2-->
+        <div class="col-md-9">
+            <nav class="navbar navbar-expand-lg ">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link active" href="#">Watch Video  </a>
                     </li>
-                      
-                          
-                          <li class="nav-item">
-                              <span class="button-large"> 
-                                  <a href="tel:9496673343"> Buy now </a>
 
-                              </span>
-                          </li>
-                      </ul>
-                        
-                    </div>
-                  </nav>
+                    <li class="nav-item">
+                      <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                          Live Demo
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Demo1</a>
+                          <a class="dropdown-item" href="#">Demo 2</a>
+                          <a class="dropdown-item" href="#">Demo 3</a>
+                        </div>
+                      </div> 
+                    </li>
+
+                  <li class="nav-item">
+                    <div class="dropdown">
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Blocks
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"> Blocks 1</a>
+                        <a class="dropdown-item" href="#"> Blocks 2</a>
+                        <a class="dropdown-item" href="#"> Blocks 3</a>
+                      </div>
+                    </div> 
+                </li>
+                  
+                      <li class="nav-item">
+                          <span class="button-large"> 
+                              <a href="tel:9496673343"> Buy now </a>
+
+                          </span>
+                      </li>
+                  </ul>
+                    
+                </div>
+              </nav>
+        </div>
+      </div>
+</div>
+</div>
+</header>
+
+<div class="banner">
+<div class="banner-overlay">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="banner-heading">
+      <div data-aos="fade-left">
+      <h2> GAMESITE TEMPLATE </h2>
+          </div>
+          <div data-aos="fade-right">
+            <h1> HTML Web Page Design </h1>
+                </div>   
+          <div data-aos="flip-left">
+          <a href="#"> UPCOMING GAMES </a>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="spot-light">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <h1> in the spotlight</h1>
+        </div>
+
+      <div data-aos="zoom-in">   
+        <div class="Monster">
+        <div class="Monster-text">
+          <h3>Monster Hunter: World </h3> 
+          <h4> PC </h4>
+          <p>Monster Hunter: World is an action role-playing game developed as released by Capcom. A component of the Monster Hunter series, it was released worldwide for PlayStation 4 as Xbox One in January 2018, 
+            with a Microsoft Windows version in August 2018. Try the game with HTML Web Page Design. </p>
+            <a href="#"> Read more</a>
+        </div>
+        <div class="Monster-img">
+          <img src="./images/game1.jpg" alt="game1">
+        </div>
+      </div> <!--monster-->
+    </div>
+    
+
+      <div data-aos="zoom-out">
+        <div class="Monster">
+        <div class="Monster-img">
+          <img src="./images/game2.jpg" alt="game2">
+        </div>
+        <div class="Monster-text">
+          <h3>Monster Hunter: World </h3> 
+          <h4> PC </h4>
+          <p>Monster Hunter: World is an action role-playing game developed as released by Capcom. A component of the Monster Hunter series, it was released worldwide for PlayStation 4 as Xbox One in January 2018, 
+            with a Microsoft Windows version in August 2018. Try the game with HTML Web Page Design. </p>
+            <a href="#"> Read more</a>
+        </div>
+        
+      </div> <!--monster-->
+    </div>
+    
+
+    <div data-aos="zoom-in">  
+        <div class="Monster">
+        <div class="Monster-text">
+          <h3>Monster Hunter: World </h3> 
+          <h4> PC </h4>
+          <p>Monster Hunter: World is an action role-playing game developed as released by Capcom. A component of the Monster Hunter series, it was released worldwide for PlayStation 4 as Xbox One in January 2018, 
+            with a Microsoft Windows version in August 2018. Try the game with HTML Web Page Design. </p>
+            <a href="#"> Read more</a>
+        </div>
+        <div class="Monster-img">
+          <img src="./images/game3.jpg" alt="game3">
+        </div>
+      </div> <!--monster-->
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="slide-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="slide-full">
+          <div class="slide-outer">
+            <div class="slide-inner">
+              <img src="./images/gaming3.jpg" alt="gaming3">
             </div>
           </div>
+          <div class="slide-outer">
+            <div class="slide-inner">
+              <img src="./images/gaming4.jpg" alt="gaming4">
+            </div>
+          </div>
+          <div class="slide-outer">
+            <div class="slide-inner">
+              <img src="./images/gaming5.jpg" alt="gaming5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!--row-->
+    <div class="row"> 
+    <div class="col-md-6">
+      <div class="left-side">
+      <div class="date">
+      <p>News </p>
+      <p> 20.12.2018 </p>
+      </div>
+      <h4> Mass Defect </h4>
+      <p>  
+
+        In recent years, it has actually been rather effectively revealed that artficial knowledge systems can adequately create game content of a number of various types: textures, plants, degrees, maps, animals and so forth.<br> <br>
+        
+        There is currently extreme passion in r & d in procedural material generation within both academia as the video game sector, as responses are sought to technical obstacles such as just how to develop even more replayable video games and just how to reduce game development costs. Don't hesitate to try HTML Web Page Gaming Design.
+        </p>
+        <div class="star-icon">
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+      </div>
     </div>
     </div>
-    </header>
+    <div class="col-md-6">
+      <div class="right-side">
+        <div class="progress-box">
+          <p> Persistance </p>
+          <span class="progress-value">
+            35%
+          </span>
+        </div>  <!--progress-box-->
+        <div class="progress-wrap Persistance">
+          <div class="progress progress1" style="width:35%; background:#5e49d5; height:6px;"></div>
+      </div>
+        <div class="progress-box">
+          <p> Team work</p>
+          <span class="progress-value">
+            56%
+          </span>
+        </div>  <!--progress-box-->
+        <div class="progress-wrap Team work">
+          <div class="progress progress1" style="width:56%; background:#5e49d5; height:6px;"></div>
+      </div>
+        <div class="progress-box">
+          <p> Skills </p>
+          <span class="progress-value">
+            65%
+          </span>
+        </div>  <!--progress-box-->
+        <div class="progress-wrap Skills">
+          <div class="progress progress1" style="width:65%; background:#5e49d5; height:6px;"></div>
+      </div>
+        <div class="progress-box">
+          <p> Attention to details </p>
+          <span class="progress-value">
+            100%
+          </span>
+        </div>  <!--progress-box-->
+        <div class="progress-wrap Attention">
+          <div class="progress progress1" style="width:100%; background:#1bc2ca; height:6px;"></div>
+      </div>
+        <div class="progress-box">
+          <p> Strategy</p>
+          <span class="progress-value">
+            15%
+          </span>
+        </div>  <!--progress-box-->
+        <div class="progress-wrap Strategy">
+          <div class="progress progress1" style="width:15%; background:#5e49d5; height:6px;"></div>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
+<div class="feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="box">
+          <h1> 5/5 </h1>
+          <h4> GAME INFORMER </h4>
+        </div>
+      </div> <!--col-md-3-->
+      <div class="col-md-3">
+        <div class="box">
+          <h1> 10/10 </h1>
+          <h4>   GAME INFORMER </h4>
+        </div>
+      </div> <!--col-md-3-->
+      <div class="col-md-3">
+        <div class="box">
+          <h1> 4.5/5</h1>
+          <h4> GAME INFORMER </h4>
+        </div>
+      </div> <!--col-md-3-->
+      <div class="col-md-3">
+        <div class="box">
+          <h1> 9/10 </h1>
+          <h4> GAME INFORMER </h4>
+        </div>
+      </div> <!--col-md-3-->
+    </div>
+  </div>
+</div>
 
-  <div class="banner">
-    <div class="banner-overlay">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="banner-heading">
-          <div data-aos="fade-left">
-          <h2> GAMESITE TEMPLATE </h2>
-              </div>
-              <div data-aos="fade-right">
-                <h1> HTML Web Page Design </h1>
-                    </div>   
-              <div data-aos="flip-left">
-              <a href="#"> UPCOMING GAMES </a>
-              </div>
-          </div>
-          </div>
+<div class="content-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="content-heading">
+          <h4> Virtual Gaming </h4>
+          <p> Online fact (VR) is an interactive computer-generated experience happening within a simulated atmosphere. It integrates generally auditory as aesthetic comments, however may also allow various other types of sensory responses like haptic. This immersive atmosphere can be comparable to the real world or it can be sensational.<br><br>
+
+            Augmented fact systems may also be thought about a form of Virtual Reality that layers virtual details over a real-time cam feed right into a headset or through a smartphone or tablet tool providing the customer the capability to watch three-dimensional pictures. Don't think twice about HTML Website Articles Design. </p>
+        </div>
+      </div> 
+      <div class="col-md-9">
+        <div class="content-image">
+          <img src="./images/gaming3.jpg" alt="gaming3">
         </div>
       </div>
     </div>
   </div>
+</div>
 
-    <div class="spot-light">
-      <div class="container">
-        <div class="row">
-        <div class="col-md-12">
-          <h1> in the spotlight</h1>
-           </div>
-
-          <div data-aos="zoom-in">   
-            <div class="Monster">
-            <div class="Monster-text">
-              <h3>Monster Hunter: World </h3> 
-              <h4> PC </h4>
-              <p>Monster Hunter: World is an action role-playing game developed as released by Capcom. A component of the Monster Hunter series, it was released worldwide for PlayStation 4 as Xbox One in January 2018, 
-                with a Microsoft Windows version in August 2018. Try the game with HTML Web Page Design. </p>
-                <a href="#"> Read more</a>
-            </div>
-            <div class="Monster-img">
-              <img src="./images/game1.jpg" alt="game1">
-            </div>
-          </div> <!--monster-->
-        </div>
-        
-
-          <div data-aos="zoom-out">
-            <div class="Monster">
-            <div class="Monster-img">
-              <img src="./images/game2.jpg" alt="game2">
-            </div>
-            <div class="Monster-text">
-              <h3>Monster Hunter: World </h3> 
-              <h4> PC </h4>
-              <p>Monster Hunter: World is an action role-playing game developed as released by Capcom. A component of the Monster Hunter series, it was released worldwide for PlayStation 4 as Xbox One in January 2018, 
-                with a Microsoft Windows version in August 2018. Try the game with HTML Web Page Design. </p>
-                <a href="#"> Read more</a>
-            </div>
-            
-          </div> <!--monster-->
-        </div>
-        
-
-        <div data-aos="zoom-in">  
-            <div class="Monster">
-            <div class="Monster-text">
-              <h3>Monster Hunter: World </h3> 
-              <h4> PC </h4>
-              <p>Monster Hunter: World is an action role-playing game developed as released by Capcom. A component of the Monster Hunter series, it was released worldwide for PlayStation 4 as Xbox One in January 2018, 
-                with a Microsoft Windows version in August 2018. Try the game with HTML Web Page Design. </p>
-                <a href="#"> Read more</a>
-            </div>
-            <div class="Monster-img">
-              <img src="./images/game3.jpg" alt="game3">
-            </div>
-          </div> <!--monster-->
-        </div>
-          </div>
+<div class="video-iframe">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="vr-heading">
+          <h1> VR Technology </h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-gnvQS2xhRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
+<div class="quote-box">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="quote-heading">
+        <div class="quote-inner">
+          <p>News </p>
+    <p> 20.12.2018 </p>
+  </div>
 
-    <div class="slide-blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="slide-full">
-              <div class="slide-outer">
-                <div class="slide-inner">
-                  <img src="./images/gaming3.jpg" alt="gaming3">
-                </div>
-              </div>
-              <div class="slide-outer">
-                <div class="slide-inner">
-                  <img src="./images/gaming4.jpg" alt="gaming4">
-                </div>
-              </div>
-              <div class="slide-outer">
-                <div class="slide-inner">
-                  <img src="./images/gaming5.jpg" alt="gaming5">
-                </div>
-              </div>
-            </div>
-          </div>
+    <i class="fas fa-quote-left"></i>
+    <p> In layman's terms, playing computer game directly affects as influences regions of the mind responsible for memory, spatial alignment, info organizations, as great electric motor abilities. The study likewise enhances the insurance claim that, like exercise, playing games for just thirty minutes a day, can enhance your life. Would you like to try HTML Web Page Design GAMESITE TEMPLATE.</p>
+    <h4> Gustav Magnusson </h4>
+    <h6>Gamer </h6>
+         
         </div>
       </div>
     </div>
-
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="./js/slick.js"></script>
-    <script src="./js/custom.js"></script>
-    <script>AOS.init(); </script>
-    </body>
-    </html>
-    <!-- 
-
-    /****mister-sarna***********/
-    #trending-section .tranding-post.slick-initialized.slick-slider .inner-item.trend-col {
-    margin: 0 10px !important;
-    }
-    #tranding-post .cat-btn .content-block a h5 {
-    -webkit-line-clamp: 1;
-    }
-    .wp-block-group.alignfull.stories-section .wp-block-group__inner-container {
-    padding: 0;
-    }.celebrity-b-block .category-col.cat_col_left .cate-post-block.full-block .cat-btn button, .space-space .post-thumb .cat-btn button, .cate-two-col .category-inner-wrapper .cat-btn button, .cate-post-block .cat-btn button {
-    padding: 7px 20px;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    }
-    #mc4wp-form-1 {
-    background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/aaaa.jpg");
-    text-align: center;
-    padding: 19px 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    border: solid 3px #fff;
-    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.07);
-    }
-    #mc4wp-form-1 h2 code {
-    background: transparent;
-    font-size: 22px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #FF003F;
-    margin-bottom: 2px;
-    margin-top: 0;
-    font-family: 'Catamaran', sans-serif !important;
-    }
-
-    #mc4wp-form-1 h2::after {
-    display: none;
-    }
-    #mc4wp-form-1 code {
-    background: transparent;
-    }
-    #mc4wp-form-1 code .sub-head strong {
-    text-transform: uppercase;
-    color: #000;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding-bottom: 9px;
-    font-family: 'Catamaran', sans-serif !important;
-    margin-top: -14px;
-    display: block;
-    }
-    #mc4wp-form-1 code p:nth-child(3) {
-    position: absolute;
-    top: 138px;
-    right: 36px;
-    }
-
-    #mc4wp-form-1 code p:nth-child(3) input {
-    background-color: transparent;
-    font-size: 0;
-    background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
-    width: 20px;
-    height: 20px;
-    }
-    #mc4wp-form-1 code p:nth-child(2) {
-    position: relative;
-    }
-    #mc4wp-form-1 {
-    position: relative;
-    }
-
-    #mc4wp-form-1 .from-bottom {
-    font-family: 'Catamaran', sans-serif !important;
-    font-style: italic;
-    color: #000;
-    font-size: 18px;
-    }
-    .add-banner-block.banner-ads-ads .widget.text-52 {
-    width: 100%;
-    }
-    #mc4wp-form-2 .mc4wp-form-fields {
-    width: 100%;
-    }
-    #mc4wp-form-2 .mc4wp-form-fields h2 {
-    display: none;
-    background: transparent !important;
-    }
-    #mc4wp-form-2 code {
-    background: transparent !important;
-    }
-    .add-banner-block p.sub-head {
-    display: none;
-    }
-
-    .add-banner-block .mc4wp-form-fields p:nth-child(4) {
-    position: absolute;
-    top: 0;
-    background: transparent;
-    font-size: 0;
-    left: 0;
-    }
-
-    .add-banner-block .mc4wp-form-fields p:nth-child(4) input {
-    background-color: transparent !important;
-    background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: right;
-    font-size: 0;
-    position: absolute;
-    top: 41px;
-    right: 25px;
-    }
-
-    #mc4wp-form-2 .mc4wp-form-fields {
-    width: 100%;
-    margin-top: 27px;
-    }
-    .add-banner-block .from-bottom {
-    margin-top: -2px !important;
-    color: #FF013C !important;
-    font-style: italic;
-    }
-    .banner-ads-ads .newsleter-bottom .widget.text-54 {
-    width: 56%;
-    padding-left: 4%;
-    }
-    .banner-ads-ads .newsleter-bottom .widget.text-52 {
-    width: 50%;
-    }
-
-    .banner-ads-ads .newsleter-bottom .widget.text-52 p code {
-    display: none;
-    }
-
-    .banner-ads-ads .newsleter-bottom .widget.text-52 form {
-    width: 73%;
-    margin: 0 auto;
-    position: relative;
-    }
-
-    .banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-email {
-    position: relative;
-    }
-    .banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-sub-btn {
-    position: absolute;
-    top: 51px;
-    right: 0;
-    width: 22%;
-    background: transparent !important;
-    }
-    .banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-sub-btn input {
-    background-color: transparent !important;
-    background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: right;
-    font-size: 0;
-    position: absolute;
-    top: -46px;
-    right: 38px;
-    }
-    .add-banner-block.banner-ads-ads {
-    height: 170px;
-    }
-    .add-banner-block.banner-ads-ads .frm-email {
-    margin-top: -60px;
-    }
-
-    .add-banner-block.banner-ads-ads .from-bottom {
-    font-size: 20px !important;
-    letter-spacing: 0;
-    font-family: 'Catamaran', sans-serif !important;
-    line-height: 34px;
-    top: 64px;
-    width: 100%;
-    text-align: center;
-    }
-
-    .add-banner-block.banner-ads-ads #mc4wp-form-2 .mc4wp-form-fields {
-    width: 100%;
-    margin-top: 16px;
-    }
-
-    .add-banner-block .from-bottom {
-    margin-top: -2px !important;
-    color: #FF013C !important;
-    font-style: italic;
-    top: 56px !important;
-    }
-    .home-newsletter #mc4wp-form-1 {
-    background-image: none;
-    }
-    .home-newsletter {
-    background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/aaaa.jpg");
-    }
-
-    .home-newsletter #mc4wp-form-1 {
-    border: 0;
-    box-shadow: none !important;
-    padding: 0;
-    height: auto;
-    }
-
-    .home-newsletter #mc4wp-form-1 h2 {
-    color: #FF013C;
-    padding-bottom: 6px;
-    font-size: 21px;
-    }
-
-    .home-newsletter #mc4wp-form-1 p.sub-head, .home-newsletter #mc4wp-form-1 p.sub-head strong {
-    color: #000;
-    line-height: 27px;
-    font-style: normal;
-    padding-top: 8px;
-    font-weight: 400 !important;
-    font-family: 'Catamaran', sans-serif !important;
-    font-size: 18px;
-    }
-
-    .home-newsletter #mc4wp-form-1 .mc4wp-form-fields {
-    width: 95%;
-    margin: 13px auto;
-    }
-    .home-newsletter #mc4wp-form-1 .mc4wp-form-fields .frm-sub-btn {
-    position: absolute;
-    top: 103px;
-    right: 26px;
-    left: auto;
-    text-align: end;
-    }
-    .home-newsletter #mc4wp-form-1 .mc4wp-form-fields .frm-sub-btn input {
-    background: transparent;
-    font-size: 0;
-    background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
-    width: 20px;
-    height: 20px;
-    position: unset !important;
-    }
-
-    .instagram a::after{
-    background-image: url("https://www.mrsarna.com/wp-content/uploads/2020/10/Instaram.png");
-    }
-    .twitter a::after {
-    background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/twitter.png") !important;
-    top: 4px !important;
-    }
-    pintrest a::after{
-    background-image: url("https://www.mrsarna.com/wp-content/uploads/2020/10/pinterest.png");
-    }
-    .top-header .inner-content .right-block .social-nav li:last-child a::after {
-    top: 2px !important;
-    }
-
-
-
-
-
-
-
-    .footer-nav-widgets-wrapper.header-footer-group .social-menu.footer-social.reset-list-style.social-icons.fill-children-current-color .twitter a::after {
-    background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/twww.png") !important;
-    width: 20px;
-    height: 21px;
-    background-size: contain;
-    top: 5px !important;
-    }
-    .widget.nav_menu-3 .menu-social-menu-container {
-    padding-top: 20px !important;
-    }
-    .widget.nav_menu-7 {
-    text-align: center;
-    background: url("http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/soicial.jpg");
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 28px 0;
-    justify-content: center;
-    }
-    .widget.nav_menu-7 .widget-content {
-    width: 100%;
-    }
-
-
-    .widget.nav_menu-7 .widget-content h2 {
-    color: red;
-    color: #F51D56;
-    font-size: 23px !important;
-    }
-
-
-    .widget.nav_menu-7 .widget-content h2::after {
-    display: none;
-    }
-
-
-    .widget.nav_menu-7 .widget-content ul li {
-    display: inline;
-    padding: 1px 18px;
-    margin-top: 0;
-    display: inline-block;
-    }
-
-    .widget.nav_menu-7 .widget-content ul li a {
-    font-size:0;
-    }
-
-    .widget.nav_menu-7 ul li a {
-    position: relative;
-    }
-
-
-
-    .widget.nav_menu-7 #menu-social-menu-2 li.facebook a::after {
-    background-image: url("http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/facebook.png");
-    }
-
-    .widget.nav_menu-7 ul li a::after {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @media(max-width:990px){
-    .add-banner-block .wp-block-cover.has-background-dim {
-    height: 300px;
-    padding-bottom: 60px;
-    padding-top: 40px;
-    }
-    #mc4wp-form-2 .mc4wp-form-fields {
-    margin-top: 0 !important;
-    }	
-    .add-banner-block .wp-block-column.news-text p {
-    text-align: center !important;
-    }
-
-    .add-banner-block .mc4wp-form-fields p:nth-child(4) input {
-    top: 14px;
-    }
-
-    .banner-ads-ads .newsleter-bottom .widget.text-54 {
-    width: 100%;
-    padding-left: 0;
-    }
-
-    .banner-ads-ads .newsleter-bottom .widget.text-52 {
-    width: 100%;
-    }
-    .add-banner-block .newsleter-bottom {
-    flex-direction: column;
-    }
-    .add-banner-block.banner-ads-ads {
-    height: 300px;
-    }
-    .banner-ads-ads .newsleter-bottom .widget.text-52 form {
-    width: 90%;
-    }	
-    .banner-ads-ads .newsleter-bottom .widget.text-54 {
-    width: 100%;
-    padding-left: 0;
-    text-align: center;
-    padding-bottom: 12px;
-    }
-    .banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-sub-btn input {
-    top: -65px;
-    }
-
-    }
-    @media(max-width:480px){
-    .add-banner-block .wp-block-cover.has-background-dim {
-    padding-bottom: 0;
-    padding-top: 0;
-    }
-    .add-banner-block.banner-ads-ads .widget-title.subheading.heading-size-3 {
-    margin-top: 0;
-    padding-top: 0;
-    }
-    .home-newsletter #mc4wp-form-1 .mc4wp-form-fields .frm-sub-btn {
-    position: absolute;
-    top: 94px;
-    }	
-
-
-
-
-
-    }
-
-
-    @media(max-width:767px){
-
-    #mc4wp-form-1 code p:nth-child(3) {
-    position: absolute;
-    top: 117px;
-    right: 36px;
-    }
-    }
-
-
-
-    @media(max-width:414px){
-    #mc4wp-form-1 code p:nth-child(3) {
-    top: 136px !important;
-    }
-
-
-    } -->
+  </div>
+</div>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/slick.js"></script>
+<script src="./js/custom.js"></script>
+<script>AOS.init(); </script>
+</body>
+</html>
+<!-- 
+
+/****mister-sarna***********/
+#trending-section .tranding-post.slick-initialized.slick-slider .inner-item.trend-col {
+margin: 0 10px !important;
+}
+#tranding-post .cat-btn .content-block a h5 {
+-webkit-line-clamp: 1;
+}
+.wp-block-group.alignfull.stories-section .wp-block-group__inner-container {
+padding: 0;
+}.celebrity-b-block .category-col.cat_col_left .cate-post-block.full-block .cat-btn button, .space-space .post-thumb .cat-btn button, .cate-two-col .category-inner-wrapper .cat-btn button, .cate-post-block .cat-btn button {
+padding: 7px 20px;
+border-radius: 4px;
+font-size: 12px;
+font-weight: 800;
+letter-spacing: 1px;
+}
+#mc4wp-form-1 {
+background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/aaaa.jpg");
+text-align: center;
+padding: 19px 20px;
+background-repeat: no-repeat;
+background-size: cover;
+height: 250px;
+border: solid 3px #fff;
+box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.07);
+}
+#mc4wp-form-1 h2 code {
+background: transparent;
+font-size: 22px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #FF003F;
+margin-bottom: 2px;
+margin-top: 0;
+font-family: 'Catamaran', sans-serif !important;
+}
+
+#mc4wp-form-1 h2::after {
+display: none;
+}
+#mc4wp-form-1 code {
+background: transparent;
+}
+#mc4wp-form-1 code .sub-head strong {
+text-transform: uppercase;
+color: #000;
+font-size: 14px;
+line-height: 20px;
+font-weight: 600;
+letter-spacing: 1px;
+padding-bottom: 9px;
+font-family: 'Catamaran', sans-serif !important;
+margin-top: -14px;
+display: block;
+}
+#mc4wp-form-1 code p:nth-child(3) {
+position: absolute;
+top: 138px;
+right: 36px;
+}
+
+#mc4wp-form-1 code p:nth-child(3) input {
+background-color: transparent;
+font-size: 0;
+background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
+width: 20px;
+height: 20px;
+}
+#mc4wp-form-1 code p:nth-child(2) {
+position: relative;
+}
+#mc4wp-form-1 {
+position: relative;
+}
+
+#mc4wp-form-1 .from-bottom {
+font-family: 'Catamaran', sans-serif !important;
+font-style: italic;
+color: #000;
+font-size: 18px;
+}
+.add-banner-block.banner-ads-ads .widget.text-52 {
+width: 100%;
+}
+#mc4wp-form-2 .mc4wp-form-fields {
+width: 100%;
+}
+#mc4wp-form-2 .mc4wp-form-fields h2 {
+display: none;
+background: transparent !important;
+}
+#mc4wp-form-2 code {
+background: transparent !important;
+}
+.add-banner-block p.sub-head {
+display: none;
+}
+
+.add-banner-block .mc4wp-form-fields p:nth-child(4) {
+position: absolute;
+top: 0;
+background: transparent;
+font-size: 0;
+left: 0;
+}
+
+.add-banner-block .mc4wp-form-fields p:nth-child(4) input {
+background-color: transparent !important;
+background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-position: right;
+font-size: 0;
+position: absolute;
+top: 41px;
+right: 25px;
+}
+
+#mc4wp-form-2 .mc4wp-form-fields {
+width: 100%;
+margin-top: 27px;
+}
+.add-banner-block .from-bottom {
+margin-top: -2px !important;
+color: #FF013C !important;
+font-style: italic;
+}
+.banner-ads-ads .newsleter-bottom .widget.text-54 {
+width: 56%;
+padding-left: 4%;
+}
+.banner-ads-ads .newsleter-bottom .widget.text-52 {
+width: 50%;
+}
+
+.banner-ads-ads .newsleter-bottom .widget.text-52 p code {
+display: none;
+}
+
+.banner-ads-ads .newsleter-bottom .widget.text-52 form {
+width: 73%;
+margin: 0 auto;
+position: relative;
+}
+
+.banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-email {
+position: relative;
+}
+.banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-sub-btn {
+position: absolute;
+top: 51px;
+right: 0;
+width: 22%;
+background: transparent !important;
+}
+.banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-sub-btn input {
+background-color: transparent !important;
+background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-position: right;
+font-size: 0;
+position: absolute;
+top: -46px;
+right: 38px;
+}
+.add-banner-block.banner-ads-ads {
+height: 170px;
+}
+.add-banner-block.banner-ads-ads .frm-email {
+margin-top: -60px;
+}
+
+.add-banner-block.banner-ads-ads .from-bottom {
+font-size: 20px !important;
+letter-spacing: 0;
+font-family: 'Catamaran', sans-serif !important;
+line-height: 34px;
+top: 64px;
+width: 100%;
+text-align: center;
+}
+
+.add-banner-block.banner-ads-ads #mc4wp-form-2 .mc4wp-form-fields {
+width: 100%;
+margin-top: 16px;
+}
+
+.add-banner-block .from-bottom {
+margin-top: -2px !important;
+color: #FF013C !important;
+font-style: italic;
+top: 56px !important;
+}
+.home-newsletter #mc4wp-form-1 {
+background-image: none;
+}
+.home-newsletter {
+background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/aaaa.jpg");
+}
+
+.home-newsletter #mc4wp-form-1 {
+border: 0;
+box-shadow: none !important;
+padding: 0;
+height: auto;
+}
+
+.home-newsletter #mc4wp-form-1 h2 {
+color: #FF013C;
+padding-bottom: 6px;
+font-size: 21px;
+}
+
+.home-newsletter #mc4wp-form-1 p.sub-head, .home-newsletter #mc4wp-form-1 p.sub-head strong {
+color: #000;
+line-height: 27px;
+font-style: normal;
+padding-top: 8px;
+font-weight: 400 !important;
+font-family: 'Catamaran', sans-serif !important;
+font-size: 18px;
+}
+
+.home-newsletter #mc4wp-form-1 .mc4wp-form-fields {
+width: 95%;
+margin: 13px auto;
+}
+.home-newsletter #mc4wp-form-1 .mc4wp-form-fields .frm-sub-btn {
+position: absolute;
+top: 103px;
+right: 26px;
+left: auto;
+text-align: end;
+}
+.home-newsletter #mc4wp-form-1 .mc4wp-form-fields .frm-sub-btn input {
+background: transparent;
+font-size: 0;
+background-image: url(http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/new.png);
+width: 20px;
+height: 20px;
+position: unset !important;
+}
+
+.instagram a::after{
+background-image: url("https://www.mrsarna.com/wp-content/uploads/2020/10/Instaram.png");
+}
+.twitter a::after {
+background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/twitter.png") !important;
+top: 4px !important;
+}
+pintrest a::after{
+background-image: url("https://www.mrsarna.com/wp-content/uploads/2020/10/pinterest.png");
+}
+.top-header .inner-content .right-block .social-nav li:last-child a::after {
+top: 2px !important;
+}
+
+
+
+
+
+
+
+.footer-nav-widgets-wrapper.header-footer-group .social-menu.footer-social.reset-list-style.social-icons.fill-children-current-color .twitter a::after {
+background-image: url("https://mk0mrsarnaie8wwsduti.kinstacdn.com/wp-content/uploads/2020/10/twww.png") !important;
+width: 20px;
+height: 21px;
+background-size: contain;
+top: 5px !important;
+}
+.widget.nav_menu-3 .menu-social-menu-container {
+padding-top: 20px !important;
+}
+.widget.nav_menu-7 {
+text-align: center;
+background: url("http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/soicial.jpg");
+width: 100%;
+height: 150px;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 28px 0;
+justify-content: center;
+}
+.widget.nav_menu-7 .widget-content {
+width: 100%;
+}
+
+
+.widget.nav_menu-7 .widget-content h2 {
+color: red;
+color: #F51D56;
+font-size: 23px !important;
+}
+
+
+.widget.nav_menu-7 .widget-content h2::after {
+display: none;
+}
+
+
+.widget.nav_menu-7 .widget-content ul li {
+display: inline;
+padding: 1px 18px;
+margin-top: 0;
+display: inline-block;
+}
+
+.widget.nav_menu-7 .widget-content ul li a {
+font-size:0;
+}
+
+.widget.nav_menu-7 ul li a {
+position: relative;
+}
+
+
+
+.widget.nav_menu-7 #menu-social-menu-2 li.facebook a::after {
+background-image: url("http://dev.eworkbridge.com/mister-sarna/wp-content/uploads/2020/09/facebook.png");
+}
+
+.widget.nav_menu-7 ul li a::after {
+position: absolute;
+content: "";
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:990px){
+.add-banner-block .wp-block-cover.has-background-dim {
+height: 300px;
+padding-bottom: 60px;
+padding-top: 40px;
+}
+#mc4wp-form-2 .mc4wp-form-fields {
+margin-top: 0 !important;
+}	
+.add-banner-block .wp-block-column.news-text p {
+text-align: center !important;
+}
+
+.add-banner-block .mc4wp-form-fields p:nth-child(4) input {
+top: 14px;
+}
+
+.banner-ads-ads .newsleter-bottom .widget.text-54 {
+width: 100%;
+padding-left: 0;
+}
+
+.banner-ads-ads .newsleter-bottom .widget.text-52 {
+width: 100%;
+}
+.add-banner-block .newsleter-bottom {
+flex-direction: column;
+}
+.add-banner-block.banner-ads-ads {
+height: 300px;
+}
+.banner-ads-ads .newsleter-bottom .widget.text-52 form {
+width: 90%;
+}	
+.banner-ads-ads .newsleter-bottom .widget.text-54 {
+width: 100%;
+padding-left: 0;
+text-align: center;
+padding-bottom: 12px;
+}
+.banner-ads-ads .newsleter-bottom .widget.text-52 form .frm-sub-btn input {
+top: -65px;
+}
+
+}
+@media(max-width:480px){
+.add-banner-block .wp-block-cover.has-background-dim {
+padding-bottom: 0;
+padding-top: 0;
+}
+.add-banner-block.banner-ads-ads .widget-title.subheading.heading-size-3 {
+margin-top: 0;
+padding-top: 0;
+}
+.home-newsletter #mc4wp-form-1 .mc4wp-form-fields .frm-sub-btn {
+position: absolute;
+top: 94px;
+}	
+
+
+
+
+
+}
+
+
+@media(max-width:767px){
+
+#mc4wp-form-1 code p:nth-child(3) {
+position: absolute;
+top: 117px;
+right: 36px;
+}
+}
+
+
+
+@media(max-width:414px){
+#mc4wp-form-1 code p:nth-child(3) {
+top: 136px !important;
+}
+
+
+} -->
 
 
 
