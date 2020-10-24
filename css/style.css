@@ -404,6 +404,19 @@ line-height: 1.4;
 width: 100%;
 object-fit: cover;
 }
+.content-image img:hover {
+transition: .3s;
+transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transform: perspective(2500px) rotateY(-180deg);
+-khtml-transform: perspective(2500px) rotateY(-180deg);
+-moz-transform: perspective(2500px) rotateY(-180deg);
+-ms-transform: perspective(2500px) rotateY(-180deg);
+-o-transform: perspective(2500px) rotateY(-180deg);
+transform: perspective(2500px) rotateY(-180deg);
+transition-duration: 1s;
+cursor: pointer;
+}
 
 .video-iframe {
 padding-top: 4rem;
