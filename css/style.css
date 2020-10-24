@@ -519,7 +519,23 @@ line-height: 1.2;
 color: #fff;
 font-weight: 700;
 }
-
+.icon-box.box-second {
+display: flex;
+display: -webkit-flex;
+}
+.icon-text {
+order: 2;
+}
+.icon-box.box-second .icon-text {
+margin-right: 0;
+margin-left: 20px;
+}
+.text-content {
+width: 80%;
+max-width: 100%;
+margin: 0 auto;
+padding-right: 0;
+}
 .icon-box h4 {
 font-family: 'Oswald',sans-serif;
 font-size: 1.5rem;
@@ -578,30 +594,191 @@ opacity: 0.5;
 background: #5e5c7e;
 }
 .C-form input {
-	border-radius: 10px;
-	background-color: #292845;
-	color: #ffffff;
-	border: 1px solid #292845;
-	width: 49%;
-	max-width: 100%;
-	padding: 10px;
-	margin-bottom: 10px;
-	font-family: 'Play',sans-serif;
-	font-size: 1rem;
-    line-height: 1.6;
-    text-transform: capitalize;
+border-radius: 10px;
+background-color: #292845;
+color: #ffffff;
+border: 1px solid #292845;
+width: 49%;
+max-width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+font-family: 'Play',sans-serif;
+font-size: 1rem;
+line-height: 1.6;
+text-transform: capitalize;
 }
 #comment {
-        border-radius: 10px;
-        background-color: #292845;
-        color: #ffffff;
-        border: 1px solid #292845;
-        width: 100%;
-        max-width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        font-family: 'Play',sans-serif;
-        font-size: 1rem;
-        line-height: 1.6;
-    }
- 
+border-radius: 10px;
+background-color: #292845;
+color: #ffffff;
+border: 1px solid #292845;
+width: 100%;
+max-width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+font-family: 'Play',sans-serif;
+font-size: 1rem;
+line-height: 1.6;
+}
+.send-btn {
+border: none !important;
+letter-spacing: -0.3px;
+font-size: 0.9rem !important;
+font-weight: 700;
+border-radius: 10px;
+text-transform: uppercase;
+background-color: #1bc2ca !important;
+border-color: #1bc2ca !important;
+color: #ffffff;
+width: 144px !important;
+max-width: 100%;
+}
+.send-btn:hover {
+	background-color: #0f6c70 !important;
+	border-color: #0f6c70 !important;
+	color: #ffffff !important;
+}
+
+.map-box {
+padding-top: 5rem;
+padding-bottom: 5rem;
+background-color: #141229;
+}
+.map-text h1 {
+font-family: 'Oswald',sans-serif;
+font-size: 40px;
+line-height: 1.2;
+color: #fff;
+padding-bottom: 3rem;
+text-align: center;
+}
+
+.google-map iframe {
+width: 100%;
+height: 400px !important;
+max-height: 100%;
+}
+
+.map-text-second h1 {
+font-family: 'Oswald',sans-serif;
+font-size: 40px;
+line-height: 1.2;
+color: #fff;
+padding-bottom: 20px;
+}
+.map-text-second p {
+font-family: 'Play',sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #fff;
+}
+.social-icon-text {
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.social-icon-text li {
+list-style: none;
+align-items: center;
+display: flex;
+padding-bottom: 20px;
+}
+
+.social-icon-text li .fas.fa-phone { 
+transform: rotate(90deg);
+}
+.social-icon-text li i {
+color: #1bc2ca;
+font-size: 28px;
+float: left;
+display: flex;
+align-content: center;
+align-items: center;
+margin-right: 20px;
+text-align: center;
+margin-bottom: 0;
+}
+.social-icon-text li a {
+font-family: 'Play',sans-serif;
+font-size: 0.95rem;
+line-height: 1.4;
+color: #fff;
+font-weight: 600;
+text-decoration: none;
+}
+.social-icon-text li a span {
+font-weight: 400;
+}
+
+footer {
+padding-top: 7rem;
+padding-bottom: 5rem;
+background-color: #141229;
+}
+
+.footer-logo {
+	display: flex;
+	justify-content: center;
+}
+.footer-logo img {
+width: 100%;
+max-width: 200px;
+height: 200px;
+object-fit: cover;
+}
+
+.footer-nav {
+display: block;
+text-align: right;
+padding-bottom: 3rem;
+margin: 0;
+}
+.footer-nav li {
+display: inline-block;
+}
+.footer-nav li a {
+margin-left: 20px;
+font-family: 'Play',sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #fff;
+font-weight: 600;
+text-decoration: none;
+}
+
+.footer-nav li a:hover {
+	color: #1bc2ca;
+	text-decoration: underline;
+}
+
+.footer-right-side p {
+	font-family: 'Play',sans-serif;
+	font-size: 0.95rem;
+	line-height: 1.4;
+	color: #fff;
+	font-weight: 500;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 24px;
+	text-align: right;
+}
+.new-social {
+	float: right;
+}
+.new-social li i {
+	font-size: 20px;
+}
+
+.copy-right {
+	font-family: 'Play',sans-serif;
+	font-size: 0.95rem;
+	line-height: 1.4;
+	color: #fff;
+	font-weight: 500;
+	margin: 0;
+	padding-top: 20px;
+	border-top: 1px solid;
+	margin-top: 100px;
+}
+
