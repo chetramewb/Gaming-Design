@@ -969,12 +969,35 @@ margin-top: 10px;
 width: 100%;
 max-width: 100%;
 }
+.vr-heading iframe {
+width: 100%;
+}
+.slick-slide img { 
+height: auto;
+}
+.back-arrow.slick-arrow {
+top: 50%;
+left: 0;
+}
+.next-arrow.slick-arrow {
+right: 0;
+}
 }
 
 @media only screen and (max-width:575px){ 
 .logo a {
 font-size: 18px;
 }
+.footer-nav {
+padding-left: 0px;
+}
+.icon-text {
+margin-bottom: 100px;
+}
+.icon-box h4 {
+font-size: 20px;	 
+}
+
 }
 
 @media only screen and (max-width:480px){ 
