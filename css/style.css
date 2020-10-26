@@ -75,6 +75,9 @@ color: #ffffff!important;
 background-color: #1bc2ca;
 border-color: #1bc2ca;
 }
+.dropdown .btn.btn-primary.dropdown-toggle:hover {
+color: #1bc2ca !important;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
 padding-right: 0;
@@ -727,7 +730,6 @@ font-weight: 400;
 
 footer {
 padding-top: 7rem;
-padding-bottom: 5rem;
 background-color: #141229;
 }
 
